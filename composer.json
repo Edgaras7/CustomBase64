@@ -1,0 +1,20 @@
+{
+    "name": "edgaras/custombase64",
+    "description": "A PHP package for customizable Base64 encoding and decoding with support for custom character sets and optional reversed output.",
+    "type": "library",
+    "homepage": "https://github.com/Edgaras7/CustomBase64",
+    "license": "MIT",
+    "keywords": ["base64","base 64","custom base 64","base64 encode","base64 decode"],
+    "autoload": {
+        "psr-4": {
+            "Edgaras\\CustomBase64\\": "src/"
+        }
+    }, 
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
